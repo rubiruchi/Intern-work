@@ -8,9 +8,9 @@ Requirement [Ubuntu 18.04]
 "dkms status" if you see nvidia, that means you already installed drivers 
 
 ref cuda + driver
-cuda 9.2 : https://developer.nvidia.com/cuda-downloads
-cuda 9.1 : https://developer.nvidia.com/cuda-91-download-archive?target_os=Linux&target_arch=x86_64&target_distro=Ubuntu&target_version=1704&target_type=deblocal
-cuda 9.0 : https://developer.nvidia.com/cuda-90-download-archive
+-- cuda 9.2 : https://developer.nvidia.com/cuda-downloads
+-- cuda 9.1 : https://developer.nvidia.com/cuda-91-download-archive?target_os=Linux&target_arch=x86_64&target_distro=Ubuntu&target_version=1704&target_type=deblocal
+-- cuda 9.0 : https://developer.nvidia.com/cuda-90-download-archive
 
 - nvidia driver for GPU
 Check driver kernel that support for your GPU version here
