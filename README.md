@@ -49,3 +49,20 @@ use "sudo sh ___.run" --> GUI mode
 
   - install Tensorflow & Keras
   ref: https://medium.com/@asmello/how-to-install-tensorflow-cuda-9-1-into-ubuntu-18-04-b645e769f01d
+  [Error] with version of gcc is not match (below than 6 , but we use 7)
+  
+  try:
+   - install by using docker hub 
+   req. nvidia-docker --> run with gpu 
+   [Error] when download docker images from https://hub.docker.com/r/ermaker/keras-jupyter/ 
+   and  try to 
+   run the code in jupyter
+   "from keras.models import Sequential"
+   error occus, like np_utils can't import
+   I tried use, by  ref : https://stackoverflow.com/questions/43027379/keras-importerror-cannot-import-name-ctc-ops/43145681?utm_medium=organic&utm_source=google_rich_qa&utm_campaign=google_rich_qa
+    "pip install keras tensoflow --upgrade"
+    and restart  kernel
+    but It get (core dump)
+    - install from dockerfile
+    below this web : https://github.com/gw0/docker-keras/blob/master/Dockerfile.py3-tf-gpu
+    [...]
