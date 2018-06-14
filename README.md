@@ -68,5 +68,4 @@ use "sudo sh ___.run" --> GUI mode
     but It get (core dump)
     - [x] install with https://github.com/gw0/docker-keras-full
     and using command "sudo nvidia-docker run -d -p 8888:8888 -v $(pwd):/srv gw000/keras-full"
-    access web in "http://<ip>:8888" with password "keras"
-    * <ip> can use localhost
+    access web in "http://<ip>:8888" with password "keras" <ip> can use localhost
