@@ -8,6 +8,42 @@ Our system
  - python 2
  - ubuntu 18.04 x86_64
  - GTX 1080
+ 
+ Data format 
+ DARPA 2009 DDoS attack dataset [1 GB (zip) :3 GB (unzip)] 
+ ref : https://drive.google.com/open?id=10j4394CgkgKK920ey7ay41xTuNuA2Xka
+  - use for Attack packets dataset
+ DARPA 2009 Scalable Network Monitoring [1.64 TB : 6.54 TB ?]
+ ref : in email 
+  - use for Normal packets dataset
+ - pcap file that is ascii file that contain the header and raw in packets
+ - convert file pass this programs (order)
+ Choice 1 (using scapy + scapy-http libary)
+ prepare by 
+ "pip install scapy"
+ "pip install scapy-httpscapy-http"
+ 1. Fullyfile.ipynb (MAC) : pcap --> txt | use command "p.show()" get a lot of detail in package, example
+ 
+ 2. summay.py (MAC) : pcap --> txt | use command "p.summary()" get a little detail in package, example
+ 
+ 3. Preprocess-intoDataFame.ipynb (Ubuntu) : txt --> csv | convert in logic part in this program to use with training model
+ 
+ Feature : 
+  ref - https://github.com/invernizzi/scapy-http with scapy-http
+ - Physical [Ethernet, 802.3, others (0x6002 protocol)]
+ - IP, ARP [Vesion, Len, protocol, src, dest]
+ - TCP, UDP, ICMP [sport, dport]
+ ... HTTP, Raw 
+ using Ether [one-hot] , 802.3 [one-hot], Version [one-hot : IPv4, IPv6 ...], Len, protocol [one-hot : TCP, UDP, ...], src [one-hot : with class] , dest [one-hot with class], sport [real-value] , dport [real-value]
+ feild "other" is out because it is too low packets.
+
+[now working]
+- Add field "MAC address : src & dest" - from PcapReader 
+- Add field "port by not using dict" - use PcapReader lib from scapy to read P[IP].sport, P[IP].dport 
+[problem]
+- field is not completely, sometime occur that IndexError, but  it write a little part  in  file ?
+May be some part not have Ether field
+
 
 Requirement [Ubuntu 18.04]
 
