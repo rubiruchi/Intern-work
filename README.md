@@ -52,7 +52,7 @@ use "sudo sh ___.run" --> GUI mode
   [Error] with version of gcc is not match (below than 6 , but we use 7)
   
   try:
-   - install by using docker hub 
+   - [x] install by using docker hub 
    req. nvidia-docker --> run with gpu 
    [Error] when download docker images from https://hub.docker.com/r/ermaker/keras-jupyter/ 
    and  try to 
@@ -63,6 +63,10 @@ use "sudo sh ___.run" --> GUI mode
     "pip install keras tensoflow --upgrade"
     and restart  kernel
     but It get (core dump)
-    - install from dockerfile
-    below this web : https://github.com/gw0/docker-keras/blob/master/Dockerfile.py3-tf-gpu
-    [...]
+    - [x] install from dockerfile
+    below this web : https://github.com/gw0/docker-keras/blob/master/Dockerfile.py3-tf-gpu  
+    but It get (core dump)
+    - [/] install with https://github.com/gw0/docker-keras-full
+    and using command "sudo nvidia-docker run -d -p 8888:8888 -v $(pwd):/srv gw000/keras-full"
+    access web in "http://<ip>:8888" with password "keras"
+    * <ip> can use localhost
