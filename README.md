@@ -28,6 +28,54 @@ Our system
  
  3. Preprocess-intoDataFame.ipynb (Ubuntu) : txt --> csv | convert in logic part in this program to use with training model
  
+ Example some difference in dataset (not Ether)
+ 1.
+ ###[ 802.3 ]### 
+  dst       = 01:80:c2:00:00:00
+  src       = 00:1f:ca:9e:7e:df
+  len       = 38
+ ###[ LLC ]### 
+      dsap      = 0x42
+      ssap      = 0x42
+      ctrl      = 3
+ ###[ Spanning Tree Protocol ]### 
+         proto     = 0
+         version   = 0
+         bpdutype  = 0
+         bpduflags = 0
+         rootid    = 32768
+         rootmac   = 00:21:56:ef:bc:01
+         pathcost  = 0
+         bridgeid  = 32768
+         bridgemac = 00:21:56:ef:bc:01
+         portid    = 32800
+         age       = 0.0
+         maxage    = 20.0
+         hellotime = 2.0
+         fwddelay  = 15.0
+ ###[ Padding ]### 
+            load      = '\x00\x00\x00\x00\x00\x00\x00\x00'
+ 2.
+ ###[ Ethernet ]### 
+  dst       = 00:1e:4f:3e:45:1f
+  src       = 00:1b:21:3a:79:d5
+  type      = 0x806
+ ###[ ARP ]### 
+      hwtype    = 0x1
+      ptype     = 0x800
+      hwlen     = 6
+      plen      = 4
+      op        = is-at
+      hwsrc     = 00:1b:21:3a:79:d5
+      psrc      = 192.168.61.196
+      hwdst     = 00:1e:4f:3e:45:1f
+      pdst      = 192.168.61.208
+ ###[ Padding ]### 
+         load      = '\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00'
+         
+ Meaning in each field
+ Ref : https://thepacketgeek.com/scapy-p-05-sending-our-first-packet-arp-response/         
+
  Feature : 
   ref - https://github.com/invernizzi/scapy-http with scapy-http
  - Physical [Ethernet, 802.3, others (0x6002 protocol)]
