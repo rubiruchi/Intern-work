@@ -73,6 +73,72 @@ Our system
  ###[ Padding ]### 
          load      = '\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00'
          
+ 3.
+ ###[ Ethernet ]### 
+  dst       = ab:00:00:02:00:00
+  src       = 00:21:56:ef:bc:00
+  type      = 0x6002
+ ###[ Raw ]### 
+       load      = '=\x00\x07\x00\x00\x00\x01\x00\x03\x03\x00\x00\x02\x00\x02!\x00\x03\x00\x06\x00\x00\x00\x00\x00\x00\x04\x00\x02<\x00\x05\x00\x02\xd8\x05\x06\x00\x02\x00\x01\x07\x00\x06\x00!V\xef\xbc\x00d\x00\x01y\x90\x01\x01\x01\x91\x01\x02\xee\x05'
+
+  4.
+  ###[ Ethernet ]### 
+   dst       = 33:33:00:01:00:03
+   src       = 00:1e:4f:3e:43:19
+   type      = 0x86dd
+  ###[ IPv6 ]### 
+       version   = 6
+       tc        = 0
+       fl        = 0
+       plen      = 37
+       nh        = UDP
+       hlim      = 1
+       src       = fe80::b6:a9b:e37d:95f3
+       dst       = ff02::1:3
+  ###[ UDP ]### 
+          sport     = 55902
+          dport     = hostmon
+          len       = 37
+          chksum    = 0x9fa2
+  ###[ Link Local Multicast Node Resolution - Query ]### 
+             id        = 54023
+             qr        = 0
+             opcode    = QUERY
+             c         = 0
+             tc        = 0
+             z         = 0
+             rcode     = ok
+             qdcount   = 1
+             ancount   = 0
+             nscount   = 0
+             arcount   = 0
+             \qd        \
+              |###[ DNS Question Record ]### 
+              |  qname     = 'Unspecified.'
+              |  qtype     = A
+              |  qclass    = IN
+             an        = None
+             ns        = None
+             ar        = None
+
+Dataset (collect  in the same day 20091105 )
+for training
+- Attack packets:
+ - 4856 | 1217369 packets
+ - 5102 | 1470285 packets
+
+- Nomal packets:
+ - 0448 | 1219540 packets
+ - 1052 | 1216464 packets
+ [may be select packets by random]
+
+for test
+- Attack packets:
+ - 5253 | 1267616 packets
+- Nomal packets:
+ - 2823 | ?
+
+         
  Meaning in each field
  Ref : https://thepacketgeek.com/scapy-p-05-sending-our-first-packet-arp-response/         
 
