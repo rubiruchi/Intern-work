@@ -124,19 +124,19 @@ Our system
 Dataset (collect  in the same day 20091105 )
 for training
 - Attack packets:
- - 4856 | 1217369 packets
- - 5102 | 1470285 packets
+  - 4856 = 1217369 packets
+  - 5102 = 1470285 packets
 
 - Nomal packets:
- - 0448 | 1219540 packets
- - 1052 | 1216464 packets
+  - 0448 = 1219540 packets
+  - 1052 = 1216464 packets
  [may be select packets by random]
 
 for test
 - Attack packets:
- - 5253 | 1267616 packets
+  - 5253 = 1267616 packets
 - Nomal packets:
- - 2823 | 1217463 packets
+  - 2823 = 1217463 packets
 
          
  Meaning in each field
