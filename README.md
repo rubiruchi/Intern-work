@@ -136,7 +136,7 @@ for test
 - Attack packets:
  - 5253 | 1267616 packets
 - Nomal packets:
- - 2823 | ?
+ - 2823 | 1217463 packets
 
          
  Meaning in each field
