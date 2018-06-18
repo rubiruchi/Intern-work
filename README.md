@@ -161,7 +161,13 @@ compare the performance of the model in deep learning and svm to find the best w
 - Ref https://en.wikipedia.org/wiki/Registered_port
  
  Meaning in each field
- Ref : https://thepacketgeek.com/scapy-p-05-sending-our-first-packet-arp-response/         
+ Ref : https://thepacketgeek.com/scapy-p-05-sending-our-first-packet-arp-response/  
+ 
+###### LLC ssap/dsap
+- Ref https://en.wikipedia.org/wiki/IEEE_802.2
+
+###### Ether type
+- Ref https://en.wikipedia.org/wiki/EtherType
 
 ###### Feature : 
   ref - https://github.com/invernizzi/scapy-http with scapy-http
@@ -240,3 +246,5 @@ use "sudo sh ___.run" --> GUI mode
     - [x] install with https://github.com/gw0/docker-keras-full
     and using command "sudo nvidia-docker run -d -p 8888:8888 -v $(pwd):/srv gw000/keras-full"
     access web in "http://<ip>:8888" with password "keras" <ip> can use localhost
+ 
+Ref: guide write git https://help.github.com/articles/basic-writing-and-formatting-syntax/
