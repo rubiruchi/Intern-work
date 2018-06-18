@@ -20,8 +20,10 @@ compare the performance of the model in deep learning and svm to find the best w
  - convert file pass this programs (order)
  Choice 1 (using scapy + scapy-http libary)
  prepare by 
+ ```
  "pip install scapy"
  "pip install scapy-httpscapy-http"
+ ```
  1. Fullyfile.ipynb (MAC) : pcap --> txt | use command "p.show()" get a lot of detail in package, example
  
  2. summay.py (MAC) : pcap --> txt | use command "p.summary()" get a little detail in package, example
@@ -131,23 +133,23 @@ compare the performance of the model in deep learning and svm to find the best w
 ```
 
 **_Dataset (collect  in the same day 20091105 )_**
-for training
-- Attack packets:
-  - 4856 = 1217369 packets
-  - 5102 = 1470285 packets
+- for training
+  - Attack packets:
+   - 4856 = 1217369 packets
+   - 5102 = 1470285 packets
 
-- Nomal packets:
-  - 0448 = 1219540 packets
-  - 1052 = 1216464 packets
+  - Nomal packets:
+   - 0448 = 1219540 packets
+   - 1052 = 1216464 packets
  [may be select packets by random]
 
-for test
-- Attack packets:
-  - 5253 = 1267616 packets
-- Nomal packets:
-  - 2823 = 1217463 packets
+- for test
+  - Attack packets:
+   - 5253 = 1267616 packets
+  - Nomal packets:
+   - 2823 = 1217463 packets
   
-MAC - Groups
+###### MAC - Groups
 
 - 0X:80:C2:00:00:00 to 0X:80:C2:FF:FF:FF
     - X = 0  individual addresses
@@ -155,13 +157,13 @@ MAC - Groups
     - Ref https://en.wikipedia.org/wiki/Multicast_address
     - Ref https://stats.stackexchange.com/questions/82923/mixing-continuous-and-binary-data-with-linear-svm
     
-Assign port
+###### Assign port
 - Ref https://en.wikipedia.org/wiki/Registered_port
  
  Meaning in each field
  Ref : https://thepacketgeek.com/scapy-p-05-sending-our-first-packet-arp-response/         
 
- Feature : 
+###### Feature : 
   ref - https://github.com/invernizzi/scapy-http with scapy-http
  - Physical [Ethernet, 802.3, others (0x6002 protocol)]
  - IP, ARP [Vesion, Len, protocol, src, dest]
