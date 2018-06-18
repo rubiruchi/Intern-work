@@ -1,7 +1,7 @@
 # Intern-work
 compare the performance of the model in deep learning and svm to find the best way to use with sdn classify DDoS attack
 
-_Our system_
+##Our system##
  - cuda 9.1
  - CudNN 7.0
  - openmpi 3
@@ -9,7 +9,7 @@ _Our system_
  - ubuntu 18.04 x86_64
  - GTX 1080
  
- _Data format_ 
+ **_Data format_** 
  DARPA 2009 DDoS attack dataset [1 GB (zip) :3 GB (unzip)] 
  ref : https://drive.google.com/open?id=10j4394CgkgKK920ey7ay41xTuNuA2Xka
   - use for Attack packets dataset
@@ -28,7 +28,7 @@ _Our system_
  
  3. Preprocess-intoDataFame.ipynb (Ubuntu) : txt --> csv | convert in logic part in this program to use with training model
  
- _Example some difference in dataset (not Ether)_
+ **_Example some difference in dataset (not Ether)_**
  > 1.
  ```
  ###[ 802.3 ]### 
@@ -130,7 +130,7 @@ _Our system_
              ar        = None
 ```
 
-_Dataset (collect  in the same day 20091105 )_
+**_Dataset (collect  in the same day 20091105 )_**
 for training
 - Attack packets:
   - 4856 = 1217369 packets
@@ -178,7 +178,7 @@ Assign port
 May be some part not have Ether field
 
 
-_Requirement [Ubuntu 18.04]_
+**_Requirement [Ubuntu 18.04]_**
 
 - Check that package install
 "dpkg -l | grep -i nvidia"
@@ -195,7 +195,7 @@ http://www.nvidia.com/download/driverResults.aspx/134859/en-us
 Download them 
 use "sudo sh ___.run" --> GUI mode
 
-_[Error check]_
+**_[Error check]_**
   - gcc version 
   gcc vesion 4.8.5 can't use with the nvidia driver installation 
   remove them by "sudo apt remove gcc"
@@ -220,7 +220,7 @@ _[Error check]_
   ref: https://medium.com/@asmello/how-to-install-tensorflow-cuda-9-1-into-ubuntu-18-04-b645e769f01d
   [Error] with version of gcc is not match (below than 6 , but we use 7)
   
-  try:
+  **_try:_**
    - [ ] install by using docker hub 
    req. nvidia-docker --> run with gpu 
    [Error] when download docker images from https://hub.docker.com/r/ermaker/keras-jupyter/ 
