@@ -137,8 +137,15 @@ for test
   - 5253 = 1267616 packets
 - Nomal packets:
   - 2823 = 1217463 packets
+  
+MAC - Groups
 
-         
+- 0X:80:C2:00:00:00 to 0X:80:C2:FF:FF:FF
+    - X = 0  individual addresses
+    - X = 1  group addresses
+    - Ref https://en.wikipedia.org/wiki/Multicast_address
+    - Ref https://stats.stackexchange.com/questions/82923/mixing-continuous-and-binary-data-with-linear-svm
+    
  Meaning in each field
  Ref : https://thepacketgeek.com/scapy-p-05-sending-our-first-packet-arp-response/         
 
