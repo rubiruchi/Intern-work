@@ -29,7 +29,7 @@ Our system
  3. Preprocess-intoDataFame.ipynb (Ubuntu) : txt --> csv | convert in logic part in this program to use with training model
  
  Example some difference in dataset (not Ether)
- 1.
+ > 1.
  ```
  ###[ 802.3 ]### 
   dst       = 01:80:c2:00:00:00
@@ -58,7 +58,7 @@ Our system
             load      = '\x00\x00\x00\x00\x00\x00\x00\x00'
  ```
  
- 2.
+ > 2.
  ```
  ###[ Ethernet ]### 
   dst       = 00:1e:4f:3e:45:1f
@@ -78,7 +78,7 @@ Our system
          load      = '\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00'
  ```
          
- 3.
+ > 3.
  ```
  ###[ Ethernet ]### 
   dst       = ab:00:00:02:00:00
@@ -88,7 +88,7 @@ Our system
        load      = '=\x00\x07\x00\x00\x00\x01\x00\x03\x03\x00\x00\x02\x00\x02!\x00\x03\x00\x06\x00\x00\x00\x00\x00\x00\x04\x00\x02<\x00\x05\x00\x02\xd8\x05\x06\x00\x02\x00\x01\x07\x00\x06\x00!V\xef\xbc\x00d\x00\x01y\x90\x01\x01\x01\x91\x01\x02\xee\x05'
 ```
 
-  4.
+  > 4.
   ```
   ###[ Ethernet ]### 
    dst       = 33:33:00:01:00:03
