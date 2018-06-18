@@ -1,7 +1,7 @@
 # Intern-work
 compare the performance of the model in deep learning and svm to find the best way to use with sdn classify DDoS attack
 
-Our system
+_Our system_
  - cuda 9.1
  - CudNN 7.0
  - openmpi 3
@@ -9,7 +9,7 @@ Our system
  - ubuntu 18.04 x86_64
  - GTX 1080
  
- Data format 
+ _Data format_ 
  DARPA 2009 DDoS attack dataset [1 GB (zip) :3 GB (unzip)] 
  ref : https://drive.google.com/open?id=10j4394CgkgKK920ey7ay41xTuNuA2Xka
   - use for Attack packets dataset
@@ -28,7 +28,7 @@ Our system
  
  3. Preprocess-intoDataFame.ipynb (Ubuntu) : txt --> csv | convert in logic part in this program to use with training model
  
- Example some difference in dataset (not Ether)
+ _Example some difference in dataset (not Ether)_
  > 1.
  ```
  ###[ 802.3 ]### 
@@ -130,7 +130,7 @@ Our system
              ar        = None
 ```
 
-Dataset (collect  in the same day 20091105 )
+_Dataset (collect  in the same day 20091105 )_
 for training
 - Attack packets:
   - 4856 = 1217369 packets
@@ -178,7 +178,7 @@ Assign port
 May be some part not have Ether field
 
 
-Requirement [Ubuntu 18.04]
+_Requirement [Ubuntu 18.04]_
 
 - Check that package install
 "dpkg -l | grep -i nvidia"
@@ -195,7 +195,7 @@ http://www.nvidia.com/download/driverResults.aspx/134859/en-us
 Download them 
 use "sudo sh ___.run" --> GUI mode
 
-[Error check]
+_[Error check]_
   - gcc version 
   gcc vesion 4.8.5 can't use with the nvidia driver installation 
   remove them by "sudo apt remove gcc"
