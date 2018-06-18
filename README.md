@@ -146,6 +146,9 @@ MAC - Groups
     - Ref https://en.wikipedia.org/wiki/Multicast_address
     - Ref https://stats.stackexchange.com/questions/82923/mixing-continuous-and-binary-data-with-linear-svm
     
+Assign port
+- Ref https://en.wikipedia.org/wiki/Registered_port
+ 
  Meaning in each field
  Ref : https://thepacketgeek.com/scapy-p-05-sending-our-first-packet-arp-response/         
 
