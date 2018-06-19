@@ -148,7 +148,27 @@ compare the performance of the model in deep learning and svm to find the best w
    - 5253 = 1267616 packets
   - Nomal packets:
    - 2823 = 1217463 packets
-  
+   
+###### Training Data
+- Prepare dataset (csv)
+ref: https://medium.com/click-bait/splitting-csv-into-train-and-test-data-1407a063dd74
+- Random value
+ref: https://stackoverflow.com/questions/43062613/how-to-randomly-select-rows-from-a-data-set-using-pandas
+# Dataset1
+- Training data && Test data with grouping IP, MAC, Port
+
+## SVM in Jupyter-lab 
+- SVM.ipynb in path /home/panin/Desktop/workspace/Intern-work/Data-csv/SVM.ipynb
+- in localhost:12345
+
+# Try case 1
+- Dataset1
+  - eval = 0.4998~0.5008
+
+## Deep learning in Jupyter-lab  
+- Deep learning.ipynb in path /srv/workspace/Intern-work/Data-csv/Deep learning.ipynb
+- in localhost:8888
+
 ###### MAC - Groups
 
 - 0X:80:C2:00:00:00 to 0X:80:C2:FF:FF:FF
