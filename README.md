@@ -155,6 +155,7 @@ compare the performance of the model in deep learning and svm to find the best w
  - Define is DDoS Attack or not
  - [TRY] preprocess3 using window
 Try to find the relation of each attributes with R language (Multiple regression)
+
 ```
  Call:
 lm(formula = Status ~ Ether_or_Dot3 + MAC_src + MAC_dst + Ether_type + 
@@ -241,6 +242,105 @@ Multiple R-squared:  0.9978,	Adjusted R-squared:  0.9978
 F-statistic: 1.187e+07 on 47 and 1217321 DF,  p-value: < 2.2e-16
 ```
 but in this dataset is define the status value by known destination attack (problem)
+
+Try:
+1. set value below this:
+start_packets = 10000
+percent_attack = 2
+```
+Call:
+lm(formula = Status ~ Ether_or_Dot3 + MAC_src + MAC_dst + Ether_type +
+    LLC + LLC_ssap + LLC_dsap + IP_ttl + IP_version + TCP + UDP +
+    ARP + ICMP + pLen + Num_ip_pair + Num_all_packets + Ratio_ip +
+    Num_ip_src + Num_ip_dst + Num_port_pair + Ratio_port + Num_port_src +
+    Num_port_dst + Weight_ip + Weight_port)
+
+Residuals:
+     Min       1Q   Median       3Q      Max
+-0.48813 -0.02854  0.00050  0.02976  1.69313
+
+Coefficients: (16 not defined because of singularities)
+                           Estimate Std. Error  t value Pr(>|t|)
+(Intercept)              -3.519e-01  7.174e-02   -4.905 9.36e-07 ***
+Ether_or_Dot3            -1.768e-01  7.725e-02   -2.288 0.022120 *
+MAC_src00:13:80:5c:32:c0  1.764e-01  2.863e-02    6.161 7.23e-10 ***
+MAC_src00:17:3f:9c:23:76 -6.266e-02  3.171e-02   -1.976 0.048145 *
+MAC_src00:1a:70:14:d6:4a -9.919e-02  2.636e-02   -3.763 0.000168 ***
+MAC_src00:1b:21:23:b9:90 -1.122e-01  7.247e-03  -15.485  < 2e-16 ***
+MAC_src00:1b:21:3a:79:d5  5.983e-02  4.674e-03   12.800  < 2e-16 ***
+MAC_src00:1b:78:1f:49:78 -4.456e-02  8.185e-02   -0.544 0.586186
+MAC_src00:1e:4f:3e:1a:ae  4.170e-02  2.889e-02    1.443 0.148959
+MAC_src00:1e:4f:3e:43:19  1.277e-01  3.356e-02    3.806 0.000141 ***
+MAC_src00:1e:4f:3e:45:1f -5.054e-02  9.124e-03   -5.539 3.04e-08 ***
+MAC_src00:1f:ca:9e:7e:d8 -7.966e-03  7.289e-02   -0.109 0.912974
+MAC_src00:1f:ca:9e:7e:d9 -7.966e-03  7.289e-02   -0.109 0.912974
+MAC_src00:1f:ca:9e:7e:df -7.966e-03  7.289e-02   -0.109 0.912974
+MAC_src00:1f:ca:9e:7e:e0 -7.966e-03  7.289e-02   -0.109 0.912974
+MAC_src00:1f:ca:9e:7e:e1 -7.966e-03  7.289e-02   -0.109 0.912974
+MAC_src00:1f:ca:9e:7e:e3 -7.966e-03  7.289e-02   -0.109 0.912974
+MAC_src00:1f:ca:9e:7e:e4 -7.966e-03  7.289e-02   -0.109 0.912974
+MAC_src00:1f:ca:9e:7e:e6 -7.966e-03  7.289e-02   -0.109 0.912974
+MAC_src00:1f:ca:9e:7e:e8 -7.966e-03  7.289e-02   -0.109 0.912974
+MAC_src00:1f:ca:9e:7e:ef -7.966e-03  7.289e-02   -0.109 0.912974
+MAC_src00:21:56:ef:bc:00  1.642e-01  2.863e-02    5.733 9.86e-09 ***
+MAC_src00:21:9b:fc:19:68         NA         NA       NA       NA
+MAC_dst00:17:3f:9c:23:76 -6.253e-02  4.220e-02   -1.482 0.138396
+MAC_dst00:1a:70:14:d6:4a -2.519e-01  3.891e-02   -6.473 9.60e-11 ***
+MAC_dst00:1b:21:23:b9:90  2.522e-02  2.860e-02    0.882 0.377762
+MAC_dst00:1b:21:3a:79:d5 -1.292e-01  2.885e-02   -4.480 7.46e-06 ***
+MAC_dst00:1e:4f:3e:1a:ae -9.057e-02  2.782e-02   -3.256 0.001130 **
+MAC_dst00:1e:4f:3e:43:19 -4.267e-02  6.094e-02   -0.700 0.483774
+MAC_dst00:1e:4f:3e:45:1f  5.277e-04  2.886e-02    0.018 0.985413
+MAC_dst00:21:56:ef:bc:00         NA         NA       NA       NA
+MAC_dst00:21:9b:fc:19:68  7.870e-02  2.880e-02    2.732 0.006286 **
+MAC_dst01:00:0c:cc:cc:cc         NA         NA       NA       NA
+MAC_dst01:00:5e:00:00:fb  2.802e-01  4.423e-02    6.336 2.35e-10 ***
+MAC_dst01:00:5e:00:00:fc  8.139e-02  4.300e-02    1.893 0.058404 .
+MAC_dst01:80:c2:00:00:00         NA         NA       NA       NA
+MAC_dst33:33:00:01:00:03  8.094e-02  4.300e-02    1.882 0.059815 .
+MAC_dstff:ff:ff:ff:ff:ff         NA         NA       NA       NA
+Ether_type2054            2.619e-01  1.444e-02   18.135  < 2e-16 ***
+Ether_type34525                  NA         NA       NA       NA
+Ether_typeN                      NA         NA       NA       NA
+LLC                              NA         NA       NA       NA
+LLC_ssap66                       NA         NA       NA       NA
+LLC_ssapN                        NA         NA       NA       NA
+LLC_dsap66                       NA         NA       NA       NA
+LLC_dsapN                        NA         NA       NA       NA
+IP_ttl                   -1.013e-04  1.432e-05   -7.070 1.55e-12 ***
+IP_version6                      NA         NA       NA       NA
+IP_versionN                      NA         NA       NA       NA
+TCP                       1.813e-01  1.148e-03  157.940  < 2e-16 ***
+UDP                              NA         NA       NA       NA
+ARP                              NA         NA       NA       NA
+ICMP                      4.959e-03  8.809e-03    0.563 0.573443
+pLen                      5.285e-06  2.713e-07   19.482  < 2e-16 ***
+Num_ip_pair              -2.905e-04  8.659e-06  -33.547  < 2e-16 ***
+Num_all_packets           3.926e-05  5.437e-08  722.049  < 2e-16 ***
+Ratio_ip                  4.026e+00  8.097e-02   49.718  < 2e-16 ***
+Num_ip_src               -1.218e-04  3.643e-06  -33.432  < 2e-16 ***
+Num_ip_dst               -3.335e-05  2.097e-06  -15.902  < 2e-16 ***
+Num_port_pair             6.845e-04  7.352e-06   93.107  < 2e-16 ***
+Ratio_port               -7.240e+00  8.086e-02  -89.545  < 2e-16 ***
+Num_port_src             -3.392e-05  1.091e-07 -310.852  < 2e-16 ***
+Num_port_dst             -4.587e-05  1.509e-07 -303.929  < 2e-16 ***
+Weight_ip                 1.942e-03  4.685e-05   41.444  < 2e-16 ***
+Weight_port               2.207e-03  8.223e-05   26.846  < 2e-16 ***
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 0.1015 on 1217320 degrees of freedom
+Multiple R-squared:  0.7024,	Adjusted R-squared:  0.7023
+F-statistic: 5.984e+04 on 48 and 1217320 DF,  p-value: < 2.2e-16
+```
+2. set value below this:
+start_packets = 10000
+percent_attack = 1.8
+
+
+3. set value below this:
+start_packets = 10000
+percent_attack = 2.2
 
    
 ###### Training Data
