@@ -1,0 +1,292 @@
+2018-08-18 08:34:22,902 INFO [default] #instances = 899999, #features = 25
+2018-08-18 08:34:23,014 INFO [default] #classes = 2
+2018-08-18 08:34:23,591 INFO [default] working set size = 1024
+2018-08-18 08:34:23,613 INFO [default] training start
+2018-08-18 08:34:24,835 INFO [default] global iter = 0, total local iter = 102401, diff = 2
+2018-08-18 08:34:38,198 INFO [default] global iter = 100, total local iter = 634260, diff = 5.38267e+06
+2018-08-18 08:34:52,387 INFO [default] global iter = 200, total local iter = 1228179, diff = 1.81606e+09
+2018-08-18 08:35:03,870 INFO [default] global iter = 300, total local iter = 1526257, diff = 2.38995e+10
+2018-08-18 08:35:17,395 INFO [default] global iter = 400, total local iter = 2061123, diff = 1.02036e+32
+2018-08-18 08:35:29,926 INFO [default] global iter = 500, total local iter = 2472846, diff = 1.8731e+31
+2018-08-18 08:35:45,939 INFO [default] global iter = 600, total local iter = 3262937, diff = 5.1225e+30
+2018-08-18 08:35:57,371 INFO [default] global iter = 700, total local iter = 3542012, diff = 2.32374e+31
+2018-08-18 08:36:08,372 INFO [default] global iter = 800, total local iter = 3765387, diff = 5.9203e+31
+2018-08-18 08:36:19,956 INFO [default] global iter = 900, total local iter = 4056313, diff = 1.12865e+31
+2018-08-18 08:36:32,561 INFO [default] global iter = 1000, total local iter = 4455855, diff = 1.7964e+31
+2018-08-18 08:36:32,566 INFO [default] global iter = 1000, total local iter = 4455855, diff = 1.7964e+31
+2018-08-18 08:36:32,566 INFO [default] training finished
+2018-08-18 08:36:32,568 INFO [default] obj = -1.03452e+33
+2018-08-18 08:36:32,597 INFO [default] rho = -1.08627e+30
+2018-08-18 08:36:32,598 INFO [default] #sv = 2170
+2018-08-18 08:36:32,789 INFO [default] #total unique sv = 2170
+2018-08-18 08:36:32,832 INFO [default] training finished
+Training Total Time: 133.831126928
+2018-08-18 08:36:33,333 INFO [default] #instances = 100001, #features = 25
+Predict Total Time: 0.547060012817
+2018-08-18 08:36:33,863 INFO [default] #instances = 100001, #features = 25
+acc test score is  0.7669623303766963
+MES=  0.23303766962330377
+Confusion matrix=  [[30661 21149]
+ [ 2155 46036]]
+2018-08-18 08:36:37,795 INFO [default] #instances = 899999, #features = 25
+2018-08-18 08:36:37,904 INFO [default] #classes = 2
+2018-08-18 08:36:38,310 INFO [default] working set size = 1024
+2018-08-18 08:36:38,332 INFO [default] training start
+2018-08-18 08:36:39,379 INFO [default] global iter = 0, total local iter = 102401, diff = 2
+2018-08-18 08:36:52,990 INFO [default] global iter = 100, total local iter = 654327, diff = 1.02631e+08
+2018-08-18 08:37:07,012 INFO [default] global iter = 200, total local iter = 1252956, diff = 8.25315e+30
+2018-08-18 08:37:19,193 INFO [default] global iter = 300, total local iter = 1632194, diff = 2.20883e+31
+2018-08-18 08:37:31,204 INFO [default] global iter = 400, total local iter = 1987158, diff = 5.63408e+31
+2018-08-18 08:37:44,863 INFO [default] global iter = 500, total local iter = 2524816, diff = 1.32415e+31
+2018-08-18 08:38:00,113 INFO [default] global iter = 600, total local iter = 3237315, diff = 2.12539e+31
+2018-08-18 08:38:15,921 INFO [default] global iter = 700, total local iter = 3999643, diff = 4.73515e+30
+2018-08-18 08:38:30,141 INFO [default] global iter = 800, total local iter = 4605412, diff = 2.15947e+31
+2018-08-18 08:38:45,603 INFO [default] global iter = 900, total local iter = 5338151, diff = 1.96965e+31
+2018-08-18 08:39:13,009 INFO [default] global iter = 982, total local iter = 7481535, diff = 2.37184e+31
+2018-08-18 08:39:13,009 INFO [default] training finished
+2018-08-18 08:39:13,011 INFO [default] obj = -3.09121e+33
+2018-08-18 08:39:13,037 INFO [default] rho = -3.63302e+30
+2018-08-18 08:39:13,038 INFO [default] #sv = 4020
+2018-08-18 08:39:13,201 INFO [default] #total unique sv = 4020
+2018-08-18 08:39:13,239 INFO [default] training finished
+Training Total Time: 159.231788158
+2018-08-18 08:39:13,709 INFO [default] #instances = 100001, #features = 25
+Predict Total Time: 0.562940120697
+2018-08-18 08:39:14,273 INFO [default] #instances = 100001, #features = 25
+acc test score is  0.7740022599774002
+MES=  0.22599774002259979
+Confusion matrix=  [[30509 21301]
+ [ 1299 46892]]
+2018-08-18 08:39:18,265 INFO [default] #instances = 899999, #features = 25
+2018-08-18 08:39:18,340 INFO [default] #classes = 2
+2018-08-18 08:39:18,748 INFO [default] working set size = 1024
+2018-08-18 08:39:18,770 INFO [default] training start
+2018-08-18 08:39:19,814 INFO [default] global iter = 0, total local iter = 102401, diff = 2
+2018-08-18 08:39:33,360 INFO [default] global iter = 100, total local iter = 664885, diff = 1.99299e+24
+2018-08-18 08:39:49,446 INFO [default] global iter = 200, total local iter = 1489499, diff = 1.51808e+30
+2018-08-18 08:40:02,879 INFO [default] global iter = 300, total local iter = 2012232, diff = 1.54074e+31
+2018-08-18 08:40:18,517 INFO [default] global iter = 400, total local iter = 2760362, diff = 5.92467e+30
+2018-08-18 08:40:30,870 INFO [default] global iter = 500, total local iter = 3144220, diff = 5.75266e+31
+2018-08-18 08:40:45,563 INFO [default] global iter = 600, total local iter = 3799661, diff = 1.43837e+31
+2018-08-18 08:41:00,322 INFO [default] global iter = 700, total local iter = 4453811, diff = 5.75703e+31
+2018-08-18 08:41:14,015 INFO [default] global iter = 800, total local iter = 4989792, diff = 1.15405e+31
+2018-08-18 08:41:27,551 INFO [default] global iter = 900, total local iter = 5501836, diff = 2.09885e+31
+2018-08-18 08:41:42,043 INFO [default] global iter = 1000, total local iter = 6115296, diff = 9.5121e+30
+2018-08-18 08:41:42,048 INFO [default] global iter = 1000, total local iter = 6115296, diff = 9.5121e+30
+2018-08-18 08:41:42,048 INFO [default] training finished
+2018-08-18 08:41:42,050 INFO [default] obj = -4.35739e+33
+2018-08-18 08:41:42,076 INFO [default] rho = -1.70299e+30
+2018-08-18 08:41:42,077 INFO [default] #sv = 4953
+2018-08-18 08:41:42,251 INFO [default] #total unique sv = 4953
+2018-08-18 08:41:42,291 INFO [default] training finished
+Training Total Time: 147.834842205
+2018-08-18 08:41:42,788 INFO [default] #instances = 100001, #features = 25
+Predict Total Time: 0.636035919189
+2018-08-18 08:41:43,424 INFO [default] #instances = 100001, #features = 25
+acc test score is  0.7495525044749553
+MES=  0.25044749552504475
+Confusion matrix=  [[29757 22053]
+ [ 2992 45199]]
+2018-08-18 08:41:47,470 INFO [default] #instances = 900000, #features = 25
+2018-08-18 08:41:47,534 INFO [default] #classes = 2
+2018-08-18 08:41:47,901 INFO [default] working set size = 1024
+2018-08-18 08:41:47,927 INFO [default] training start
+2018-08-18 08:41:48,968 INFO [default] global iter = 0, total local iter = 102401, diff = 2
+2018-08-18 08:42:04,364 INFO [default] global iter = 100, total local iter = 866664, diff = 215101
+2018-08-18 08:42:19,788 INFO [default] global iter = 200, total local iter = 1630458, diff = 1.73141e+30
+2018-08-18 08:42:33,453 INFO [default] global iter = 300, total local iter = 2191600, diff = 1.38526e+31
+2018-08-18 08:42:47,687 INFO [default] global iter = 400, total local iter = 2804284, diff = 2.85545e+31
+2018-08-18 08:43:00,554 INFO [default] global iter = 500, total local iter = 3267562, diff = 2.40633e+31
+2018-08-18 08:43:16,601 INFO [default] global iter = 600, total local iter = 4083005, diff = 1.09728e+31
+2018-08-18 08:43:28,845 INFO [default] global iter = 700, total local iter = 4471988, diff = 2.35907e+32
+2018-08-18 08:43:42,192 INFO [default] global iter = 800, total local iter = 4976453, diff = 3.20084e+31
+2018-08-18 08:43:52,979 INFO [default] global iter = 900, total local iter = 5186358, diff = 1.58601e+31
+2018-08-18 08:44:05,533 INFO [default] global iter = 1000, total local iter = 5603056, diff = 1.25449e+31
+2018-08-18 08:44:05,539 INFO [default] global iter = 1000, total local iter = 5603056, diff = 1.25449e+31
+2018-08-18 08:44:05,539 INFO [default] training finished
+2018-08-18 08:44:05,540 INFO [default] obj = -1.9227e+33
+2018-08-18 08:44:05,563 INFO [default] rho = -1.89172e+30
+2018-08-18 08:44:05,564 INFO [default] #sv = 2811
+2018-08-18 08:44:05,728 INFO [default] #total unique sv = 2811
+2018-08-18 08:44:05,768 INFO [default] training finished
+Training Total Time: 142.092006922
+2018-08-18 08:44:06,259 INFO [default] #instances = 100000, #features = 25
+Predict Total Time: 0.5454890728
+2018-08-18 08:44:06,803 INFO [default] #instances = 100000, #features = 25
+acc test score is  0.78437
+MES=  0.21563
+Confusion matrix=  [[31906 19904]
+ [ 1659 46531]]
+2018-08-18 08:44:10,747 INFO [default] #instances = 900000, #features = 25
+2018-08-18 08:44:10,810 INFO [default] #classes = 2
+2018-08-18 08:44:11,172 INFO [default] working set size = 1024
+2018-08-18 08:44:11,198 INFO [default] training start
+2018-08-18 08:44:12,239 INFO [default] global iter = 0, total local iter = 102401, diff = 2
+2018-08-18 08:44:28,596 INFO [default] global iter = 100, total local iter = 980035, diff = 1.69639e+08
+2018-08-18 08:44:48,036 INFO [default] global iter = 138, total local iter = 2729363, diff = 3.33702e+09
+2018-08-18 08:44:48,036 INFO [default] training finished
+2018-08-18 08:44:48,037 INFO [default] obj = -2.38051e-13
+2018-08-18 08:44:48,060 INFO [default] rho = -2.38016e+07
+2018-08-18 08:44:48,061 INFO [default] #sv = 147
+2018-08-18 08:44:48,218 INFO [default] #total unique sv = 147
+2018-08-18 08:44:48,258 INFO [default] training finished
+Training Total Time: 41.289110899
+2018-08-18 08:44:48,706 INFO [default] #instances = 100000, #features = 25
+Predict Total Time: 0.462080001831
+2018-08-18 08:44:49,164 INFO [default] #instances = 100000, #features = 25
+acc test score is  0.6505
+MES=  0.3495
+Confusion matrix=  [[22942 28868]
+ [ 6082 42108]]
+2018-08-18 08:44:53,011 INFO [default] #instances = 900000, #features = 25
+2018-08-18 08:44:53,075 INFO [default] #classes = 2
+2018-08-18 08:44:53,442 INFO [default] working set size = 1024
+2018-08-18 08:44:53,467 INFO [default] training start
+2018-08-18 08:44:54,490 INFO [default] global iter = 0, total local iter = 102401, diff = 2
+2018-08-18 08:45:07,169 INFO [default] global iter = 100, total local iter = 545681, diff = 2.05112e+26
+2018-08-18 08:45:21,780 INFO [default] global iter = 200, total local iter = 1203733, diff = 1.24824e+28
+2018-08-18 08:45:34,602 INFO [default] global iter = 300, total local iter = 1668757, diff = 2.56895e+29
+2018-08-18 08:45:47,613 INFO [default] global iter = 400, total local iter = 2166082, diff = 3.32056e+31
+2018-08-18 08:46:00,765 INFO [default] global iter = 500, total local iter = 2663596, diff = 9.70963e+30
+2018-08-18 08:46:11,126 INFO [default] global iter = 600, total local iter = 2832637, diff = 5.98897e+30
+2018-08-18 08:46:26,732 INFO [default] global iter = 700, total local iter = 3590261, diff = 3.63554e+30
+2018-08-18 08:46:40,724 INFO [default] global iter = 800, total local iter = 4170112, diff = 1.32351e+31
+2018-08-18 08:46:59,304 INFO [default] global iter = 900, total local iter = 5272991, diff = 6.91157e+31
+2018-08-18 08:47:11,618 INFO [default] global iter = 1000, total local iter = 5656801, diff = 1.02848e+31
+2018-08-18 08:47:11,623 INFO [default] global iter = 1000, total local iter = 5656801, diff = 1.02848e+31
+2018-08-18 08:47:11,623 INFO [default] training finished
+2018-08-18 08:47:11,624 INFO [default] obj = -2.17649e+33
+2018-08-18 08:47:11,641 INFO [default] rho = -3.77128e+30
+2018-08-18 08:47:11,642 INFO [default] #sv = 3174
+2018-08-18 08:47:11,799 INFO [default] #total unique sv = 3174
+2018-08-18 08:47:11,838 INFO [default] training finished
+Training Total Time: 142.577514887
+2018-08-18 08:47:12,294 INFO [default] #instances = 100000, #features = 25
+Predict Total Time: 0.516175031662
+2018-08-18 08:47:12,814 INFO [default] #instances = 100000, #features = 25
+acc test score is  0.75071
+MES=  0.24929
+Confusion matrix=  [[27593 24217]
+ [  712 47478]]
+2018-08-18 08:47:16,711 INFO [default] #instances = 900000, #features = 25
+2018-08-18 08:47:16,774 INFO [default] #classes = 2
+2018-08-18 08:47:17,157 INFO [default] working set size = 1024
+2018-08-18 08:47:17,182 INFO [default] training start
+2018-08-18 08:47:18,233 INFO [default] global iter = 0, total local iter = 102401, diff = 2
+2018-08-18 08:47:31,781 INFO [default] global iter = 100, total local iter = 659520, diff = 2.73751e+30
+2018-08-18 08:47:41,522 INFO [default] global iter = 200, total local iter = 774577, diff = 3.06555e+30
+2018-08-18 08:47:55,129 INFO [default] global iter = 300, total local iter = 1329254, diff = 2.27277e+31
+2018-08-18 08:48:08,598 INFO [default] global iter = 400, total local iter = 1865055, diff = 3.01862e+30
+2018-08-18 08:48:21,680 INFO [default] global iter = 500, total local iter = 2338496, diff = 3.42407e+31
+2018-08-18 08:48:36,447 INFO [default] global iter = 600, total local iter = 3002607, diff = 5.04136e+30
+2018-08-18 08:48:53,205 INFO [default] global iter = 700, total local iter = 3905016, diff = 1.84939e+31
+2018-08-18 08:49:08,690 INFO [default] global iter = 800, total local iter = 4659840, diff = 1.1704e+31
+2018-08-18 08:49:24,693 INFO [default] global iter = 900, total local iter = 5469686, diff = 3.17415e+31
+2018-08-18 08:49:37,773 INFO [default] global iter = 1000, total local iter = 5932590, diff = 3.14073e+31
+2018-08-18 08:49:37,778 INFO [default] global iter = 1000, total local iter = 5932590, diff = 3.14073e+31
+2018-08-18 08:49:37,778 INFO [default] training finished
+2018-08-18 08:49:37,780 INFO [default] obj = -2.48346e+33
+2018-08-18 08:49:37,796 INFO [default] rho = -2.82165e+30
+2018-08-18 08:49:37,797 INFO [default] #sv = 3507
+2018-08-18 08:49:37,955 INFO [default] #total unique sv = 3507
+2018-08-18 08:49:37,994 INFO [default] training finished
+Training Total Time: 145.031109095
+2018-08-18 08:49:38,458 INFO [default] #instances = 100000, #features = 25
+Predict Total Time: 0.541833162308
+2018-08-18 08:49:38,997 INFO [default] #instances = 100000, #features = 25
+acc test score is  0.78229
+MES=  0.21771
+Confusion matrix=  [[31263 20547]
+ [ 1224 46966]]
+2018-08-18 08:49:42,947 INFO [default] #instances = 900001, #features = 25
+2018-08-18 08:49:43,010 INFO [default] #classes = 2
+2018-08-18 08:49:43,393 INFO [default] working set size = 1024
+2018-08-18 08:49:43,418 INFO [default] training start
+2018-08-18 08:49:44,451 INFO [default] global iter = 0, total local iter = 102401, diff = 2
+2018-08-18 08:49:58,545 INFO [default] global iter = 100, total local iter = 720279, diff = 7.48564e+29
+2018-08-18 08:50:12,142 INFO [default] global iter = 200, total local iter = 1278657, diff = 9.25292e+29
+2018-08-18 08:50:24,292 INFO [default] global iter = 300, total local iter = 1660751, diff = 1.61634e+30
+2018-08-18 08:50:36,670 INFO [default] global iter = 400, total local iter = 2064838, diff = 1.2195e+31
+2018-08-18 08:50:55,021 INFO [default] global iter = 500, total local iter = 3133145, diff = 7.68622e+30
+2018-08-18 08:51:07,644 INFO [default] global iter = 600, total local iter = 3553664, diff = 1.28184e+31
+2018-08-18 08:51:19,984 INFO [default] global iter = 700, total local iter = 3936492, diff = 1.14784e+31
+2018-08-18 08:51:34,756 INFO [default] global iter = 800, total local iter = 4596111, diff = 5.12284e+31
+2018-08-18 08:51:48,585 INFO [default] global iter = 900, total local iter = 5150490, diff = 7.64213e+30
+2018-08-18 08:52:02,751 INFO [default] global iter = 1000, total local iter = 5748224, diff = 1.29179e+32
+2018-08-18 08:52:02,756 INFO [default] global iter = 1000, total local iter = 5748224, diff = 1.29179e+32
+2018-08-18 08:52:02,756 INFO [default] training finished
+2018-08-18 08:52:02,757 INFO [default] obj = -2.82393e+33
+2018-08-18 08:52:02,774 INFO [default] rho = -4.48071e+30
+2018-08-18 08:52:02,775 INFO [default] #sv = 3766
+2018-08-18 08:52:02,933 INFO [default] #total unique sv = 3766
+2018-08-18 08:52:02,972 INFO [default] training finished
+Training Total Time: 143.805785894
+2018-08-18 08:52:03,435 INFO [default] #instances = 99999, #features = 25
+Predict Total Time: 0.535773992538
+2018-08-18 08:52:03,976 INFO [default] #instances = 99999, #features = 25
+acc test score is  0.8007780077800778
+MES=  0.1992219922199222
+Confusion matrix=  [[32832 18977]
+ [  945 47245]]
+2018-08-18 08:52:07,895 INFO [default] #instances = 900001, #features = 25
+2018-08-18 08:52:07,958 INFO [default] #classes = 2
+2018-08-18 08:52:08,343 INFO [default] working set size = 1024
+2018-08-18 08:52:08,367 INFO [default] training start
+2018-08-18 08:52:09,404 INFO [default] global iter = 0, total local iter = 102401, diff = 2
+2018-08-18 08:52:21,220 INFO [default] global iter = 100, total local iter = 446651, diff = 3.60071e+06
+2018-08-18 08:52:35,704 INFO [default] global iter = 200, total local iter = 1098869, diff = 3.68031e+12
+2018-08-18 08:52:46,502 INFO [default] global iter = 300, total local iter = 1336076, diff = 4.04189e+29
+2018-08-18 08:52:59,387 INFO [default] global iter = 400, total local iter = 1797599, diff = 1.45148e+30
+2018-08-18 08:53:11,424 INFO [default] global iter = 500, total local iter = 2161283, diff = 3.09073e+31
+2018-08-18 08:53:22,132 INFO [default] global iter = 600, total local iter = 2364217, diff = 7.56964e+30
+2018-08-18 08:53:35,661 INFO [default] global iter = 700, total local iter = 2887319, diff = 2.64702e+30
+2018-08-18 08:53:51,400 INFO [default] global iter = 800, total local iter = 3642881, diff = 1.74118e+32
+2018-08-18 08:54:06,274 INFO [default] global iter = 900, total local iter = 4316636, diff = 1.74857e+31
+2018-08-18 08:54:18,446 INFO [default] global iter = 1000, total local iter = 4683753, diff = 5.38291e+30
+2018-08-18 08:54:18,451 INFO [default] global iter = 1000, total local iter = 4683753, diff = 5.38291e+30
+2018-08-18 08:54:18,451 INFO [default] training finished
+2018-08-18 08:54:18,453 INFO [default] obj = -1.33053e+33
+2018-08-18 08:54:18,469 INFO [default] rho = -2.41308e+30
+2018-08-18 08:54:18,470 INFO [default] #sv = 2306
+2018-08-18 08:54:18,628 INFO [default] #total unique sv = 2306
+2018-08-18 08:54:18,667 INFO [default] training finished
+Training Total Time: 134.518013954
+2018-08-18 08:54:19,121 INFO [default] #instances = 99999, #features = 25
+Predict Total Time: 0.526533126831
+2018-08-18 08:54:19,676 INFO [default] #instances = 99999, #features = 25
+acc test score is  0.8151681516815168
+MES=  0.18483184831848318
+Confusion matrix=  [[34640 17169]
+ [ 1314 46876]]
+2018-08-18 08:54:23,692 INFO [default] #instances = 900001, #features = 25
+2018-08-18 08:54:23,756 INFO [default] #classes = 2
+2018-08-18 08:54:24,119 INFO [default] working set size = 1024
+2018-08-18 08:54:24,143 INFO [default] training start
+2018-08-18 08:54:25,194 INFO [default] global iter = 0, total local iter = 102401, diff = 2
+2018-08-18 08:54:38,980 INFO [default] global iter = 100, total local iter = 659403, diff = 1.11081e+21
+2018-08-18 08:54:53,082 INFO [default] global iter = 200, total local iter = 1287103, diff = 2.63765e+30
+2018-08-18 08:55:04,953 INFO [default] global iter = 300, total local iter = 1640279, diff = 1.46095e+30
+2018-08-18 08:55:18,100 INFO [default] global iter = 400, total local iter = 2131527, diff = 4.10748e+31
+2018-08-18 08:55:31,635 INFO [default] global iter = 500, total local iter = 2668423, diff = 1.06676e+31
+2018-08-18 08:55:45,901 INFO [default] global iter = 600, total local iter = 3281842, diff = 3.08724e+31
+2018-08-18 08:56:05,797 INFO [default] global iter = 700, total local iter = 4537758, diff = 1.83503e+31
+2018-08-18 08:56:22,199 INFO [default] global iter = 800, total local iter = 5389418, diff = 7.05714e+31
+2018-08-18 08:56:35,762 INFO [default] global iter = 900, total local iter = 5912079, diff = 3.86406e+31
+2018-08-18 08:56:49,468 INFO [default] global iter = 1000, total local iter = 6443892, diff = 6.37931e+31
+2018-08-18 08:56:49,473 INFO [default] global iter = 1000, total local iter = 6443892, diff = 6.37931e+31
+2018-08-18 08:56:49,473 INFO [default] training finished
+2018-08-18 08:56:49,475 INFO [default] obj = -2.15856e+33
+2018-08-18 08:56:49,491 INFO [default] rho = -2.81065e+30
+2018-08-18 08:56:49,492 INFO [default] #sv = 3437
+2018-08-18 08:56:49,651 INFO [default] #total unique sv = 3437
+2018-08-18 08:56:49,689 INFO [default] training finished
+Training Total Time: 149.858829975
+2018-08-18 08:56:50,149 INFO [default] #instances = 99999, #features = 25
+Predict Total Time: 0.527522087097
+2018-08-18 08:56:50,677 INFO [default] #instances = 99999, #features = 25
+acc test score is  0.7845878458784588
+MES=  0.21541215412154122
+Confusion matrix=  [[32173 19636]
+ [ 1905 46285]]
+Total Time: 1352.23101997
+76.59% (+/- 4.30%)
